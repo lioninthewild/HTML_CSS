@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>This is a simple HTML Form</h1>
+    <form action="backend.js">
+        <label for="name">Name:</label>
+        <div> <input type="text" name="myName" id="name" /></div>
+        <br />
+        <label for="roll">Roll No: </label>
+        <div><input type="number" name="myRollNumber" id="roll" /></div>
+        <br />
+        <label for="email">Email: </label>
+        <div> <input type="email" name="myEmail" id="email" /></div>
+        <br />
+        <div>
+            Gender: Male <input type="radio" name="myGender" checked /> Female<input type="radio" name="myGender" /> Others <input type="radio" name="myGender" />
+        </div>
+        <br />
+
+        <div>Are you a KU student? <input type="checkbox" checked /></div>
+        <br />
+
+        <div>
+            Write about why you want to join this particular club?:<br />
+            <textarea name="myself" cols="40" rows="10"></textarea>
+        </div>
+        <br />
+
+        <label for="bus">Transportation: </label>
+        <select name="myBus" id="bus">
+			<option value="walk">Walking</option>
+			<option value="public">Public Bus</option>
+			<option value="college" selected>College Bus</option>
+			<option value="hostel">Hostel</option>			
+		</select> <br><br>
+
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
