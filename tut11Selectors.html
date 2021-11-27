@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+        /* Element selector */
+        
+        p {
+            background-color: antiquewhite;
+        }
+        /* Id selector */
+        
+        #bgred {
+            border: 2px solid red;
+        }
+        /* Class selector */
+        
+        .bgblue {
+            border: 2px solid blue;
+        }
+        /* Grouping Selector */
+        
+        footer,
+        span {
+            color: blueviolet;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>CSS Selectors</h2>
+    <p id="bgred">
+        This is a simple paragraph where we will use CSS selectors to make it somehow different.
+    </p>
+    <p class="bgblue">
+        This is another simple paragraph where we will use CSS selectors to make it somehow different.
+    </p>
+    <p class="bgblue">
+        This is one more simple paragraph where we will use CSS selectors to make it somehow different.
+    </p>
+    <div>
+        <span>This is a span inside a div.</span>
+    </div>
+    <footer>Just a footer.</footer>
+</body>
+
+</html>
