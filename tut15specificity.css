@@ -37,11 +37,23 @@ p {
 /* classes over-write the type selectors */
 
 #second {
-    color: red;
+    color: rgb(25, 0, 255);
 }
 
 p {
-    color: green;
+    color: rgb(236, 240, 12);
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+body {
+    background-color: red;
+}
+
+h1 {
+    margin-left: 10em;
+    margin-top: 2em;
 }
 
 
